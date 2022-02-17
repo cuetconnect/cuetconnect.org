@@ -116,7 +116,7 @@ export default function PopupWidget() {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value="1cce605a-703a-4326-bd3a-503d43b51323"
                         {...register("apikey")}
                       />
                       <input
@@ -144,7 +144,7 @@ export default function PopupWidget() {
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Abu Sayed"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,
@@ -172,13 +172,13 @@ export default function PopupWidget() {
                           type="email"
                           id="email"
                           {...register("email", {
-                            required: "Enter your email",
+                            required: "Enter your email(CUET Mail preferable)",
                             pattern: {
                               value: /^\S+@\S+$/i,
                               message: "Please enter a valid email",
                             },
                           })}
-                          placeholder="you@company.com"
+                          placeholder="yourname@.cuet.ac.bd"
                           className={`w-full px-3 py-2 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
@@ -249,16 +249,6 @@ export default function PopupWidget() {
                       <p
                         className="text-xs text-center text-gray-400"
                         id="result">
-                        <span>
-                          Powered by{" "}
-                          <a
-                            href="https://Web3Forms.com"
-                            className="text-gray-600"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Web3Forms
-                          </a>
-                        </span>
                       </p>
                     </form>
                   )}
