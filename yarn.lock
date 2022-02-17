@@ -356,11 +356,6 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz"
   "version" "0.2.5"
 
-"@fontsource/atma@^4.5.2":
-  "integrity" "sha512-btkwgG8EckoVpTAZLBqTuUaZqXHRfCQIVmXSD9nOYRMGA73gvoIgnsoNIlUnyj2Q2EpwsweVLXGKf0JTg4S5pw=="
-  "resolved" "https://registry.npmjs.org/@fontsource/atma/-/atma-4.5.2.tgz"
-  "version" "4.5.2"
-
 "@hapi/accept@5.0.2":
   "integrity" "sha512-CmzBx/bXUR8451fnZRuZAJRlzgm0Jgu5dltTX/bszmR2lheb9BpyN47Q1RbaGTsvFzn0PXAEs+lXDKfshccYZw=="
   "resolved" "https://registry.npmjs.org/@hapi/accept/-/accept-5.0.2.tgz"
@@ -380,11 +375,6 @@
   "integrity" "sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug=="
   "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.2.0.tgz"
   "version" "9.2.0"
-
-"@headlessui/react@^1.4.3":
-  "integrity" "sha512-n2IQkaaw0aAAlQS5MEXsM4uRK+w18CrM72EqnGRl/UBOQeQajad8oiKXR9Nk15jOzTFQjpxzrZMf1NxHidFBiw=="
-  "resolved" "https://registry.npmjs.org/@headlessui/react/-/react-1.4.3.tgz"
-  "version" "1.4.3"
 
 "@heroicons/react@^1.0.1":
   "integrity" "sha512-uikw2gKCmqnvjVxitecWfFLMOKyL9BTFcU4VM3hHj9OMwpkCr5Ke+MRMyY2/aQVmsYs4VTq7NCFX05MYwAHi3g=="
