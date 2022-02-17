@@ -356,6 +356,11 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz"
   "version" "0.2.5"
 
+"@fontsource/atma@^4.5.2":
+  "integrity" "sha512-btkwgG8EckoVpTAZLBqTuUaZqXHRfCQIVmXSD9nOYRMGA73gvoIgnsoNIlUnyj2Q2EpwsweVLXGKf0JTg4S5pw=="
+  "resolved" "https://registry.npmjs.org/@fontsource/atma/-/atma-4.5.2.tgz"
+  "version" "4.5.2"
+
 "@hapi/accept@5.0.2":
   "integrity" "sha512-CmzBx/bXUR8451fnZRuZAJRlzgm0Jgu5dltTX/bszmR2lheb9BpyN47Q1RbaGTsvFzn0PXAEs+lXDKfshccYZw=="
   "resolved" "https://registry.npmjs.org/@hapi/accept/-/accept-5.0.2.tgz"
