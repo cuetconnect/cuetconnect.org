@@ -35,21 +35,23 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "Who are you?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "We are some passonate students who love to think outside the box. From this POV, we are trying to build up a civilized CUET community!",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "What are the funding source?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Currently, we bought a domain name only which costs $10/year. We are planning to buy a VPS from next year",
+  },
+  {
+    question: "What you are actually building? ",
+    answer:
+      "We are building a platform for students to connect with each other. We are also trying to build a platform for students to share their knowledge and experience with others. Forum site, Alumni Lists, Students List, Course Materials, etc.",
+  },
+  {
+    question: "How can I contact with you? ",
+    answer:
+      "Either You can email us at hi@cuetconnect.org or click on floating meassgae button on right-botton side of this page or you can contact us on our social media platforms. We are also open to any suggestions and feedbacks.",
   },
 ];
