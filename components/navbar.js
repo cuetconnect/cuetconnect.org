@@ -62,6 +62,11 @@ export default function Navbar() {
                       Forum
                     </a>
                   </Link>
+                  <Link href="/contact">
+                    <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                      Contact
+                    </a>
+                  </Link>
                 </Disclosure.Panel>
               </div>
             </>
@@ -80,6 +85,11 @@ export default function Navbar() {
               <Link href="https://forum.cuetconnect.org/">
                 <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
                   Forum
+                </a>
+              </Link>
+              <Link href="/contact">
+                <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
+                  Contact
                 </a>
               </Link>
             </li>
