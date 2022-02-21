@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Container from "./container";
-import PoweredByVercel from "powered-by-vercel";
+import Image from "next/image";
 
 export default function Footer() {
   const navigation = ["Contact", "Why?", "Who"];
@@ -71,10 +71,28 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <div>
+          <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+            Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
+            <a href="https://abusayed.dev/">SAYED</a>
+          </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a href="https://abusayed.dev/">SAYED</a>
+          <div className="flex h-24 w-full items-center justify-center border-t">
+            <a
+              className="flex items-center justify-center gap-2"
+              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Powered by{" "}
+              <Image
+                src="/vercel.svg"
+                alt="Vercel Logo"
+                width={72}
+                height={16}
+              />
+            </a>
+          </div>
         </div>
       </Container>
       {/* Do not remove this */}
@@ -96,10 +114,5 @@ const Facebook = ({ size = 24 }) => (
 );
 
 const Backlink = () => {
-  return (
-    <div>
-      {" "}
-      <PoweredByVercel />
-    </div>
-  );
+  return <div></div>;
 };
