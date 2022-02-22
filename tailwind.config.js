@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      sans: ["Atma", ...defaultTheme.fontFamily.sans],
       stock: [defaultTheme.fontFamily.sans],
     },
   },
@@ -20,4 +20,17 @@ module.exports = {
     extend: {},
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
+  plugins: [require("daisyui")],
+
+
+
+  daisyui: {
+    styled: true,
+    themes: true,
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    darkTheme: "emerald",
+  },
 };

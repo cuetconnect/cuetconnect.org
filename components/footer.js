@@ -78,14 +78,20 @@ export default function Footer() {
           </div>
 
           <div className="flex h-24 w-full items-center justify-center border-t">
+            <div class="flex h-8 w-8 absolute">
+              <span class="animate-ping absolute h-8 w-8 -top-4 -left-4 rounded-full bg-gray-200 opacity-90"></span>
+              <span class="relative rounded-full h-8 w-8 -top-4 -left-4 bg-gray-500"></span>
+            
+            
             <a href="https://status.cuetconnect.org/" target="_blank">
-            <button
-              type="button"
-              class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-            >
-              Status
-            </button>
+              <button
+                type="button"
+                class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              >
+                Status
+              </button>
             </a>
+            </div>
           </div>
         </div>
       </Container>
