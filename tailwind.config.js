@@ -25,8 +25,8 @@ module.exports = {
 
 
   daisyui: {
-    styled: true,
-    themes: true,
+    styled: false,
+    themes: false,
     base: true,
     utils: true,
     logs: true,
