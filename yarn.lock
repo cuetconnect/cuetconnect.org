@@ -2032,10 +2032,10 @@
   dependencies:
     "querystring" "^0.2.0"
 
-"next-sitemap@^2.4.5":
-  "integrity" "sha512-wfDpK8STTR66dWptdhVFBqsI1+2w82CtchI9jsxm2D+8yWFnDDnuobh6tTFiaWyX9VQFmsVJAyfBvKytO4h5AA=="
-  "resolved" "https://registry.npmjs.org/next-sitemap/-/next-sitemap-2.4.5.tgz"
-  "version" "2.4.5"
+"next-sitemap@^2.5.4":
+  "integrity" "sha512-ftFqQQk74V+9+WkyAQLi98vaoLHisarP9VpsFTlAje3HOPzSQ33GrURDY8dRiguhFps4S4lQApXH5AgKByubvg=="
+  "resolved" "https://registry.npmjs.org/next-sitemap/-/next-sitemap-2.5.4.tgz"
+  "version" "2.5.4"
   dependencies:
     "@corex/deepmerge" "^2.6.148"
     "minimist" "^1.2.5"

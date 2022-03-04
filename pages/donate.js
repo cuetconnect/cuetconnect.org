@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import bkash from "../components/donation/bkash";
+import DonationFaq from "../components/donation-faq";
 
 export default function Home() {
   return (
@@ -24,8 +24,12 @@ export default function Home() {
 
         <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
           Support us by donating to CUET CONNECT💐 It tooks us a lot of time to
-          develop this website. ALso, Domain Registration is expensive.
+          develop this website.
         </p>
+        <h1 class="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
+          Frequently Asked Questions about Donation
+        </h1>
+        <DonationFaq />
       </div>
 
       <div>
@@ -203,15 +207,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-<div class="flex items justify-center">
-        <a href="https://www.buymeacoffee.com/abusayed" target="_blank">
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
-            alt="Buy Me A Coffee"
-            height="41"
-            width="174"
-          />
-        </a>
+        <div class="flex items justify-center">
+          <a href="https://www.buymeacoffee.com/abusayed" target="_blank">
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
+              alt="Buy Me A Coffee"
+              height="41"
+              width="174"
+            />
+          </a>
         </div>
       </div>
 
