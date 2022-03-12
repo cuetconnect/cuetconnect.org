@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/cuet_logo.png";
 
 export default function Hero() {
   return (
@@ -20,8 +20,8 @@ export default function Hero() {
           <div className="hidden lg:block">
             <Image
               src={heroImg}
-              width="616"
-              height="617"
+              width="266"
+              height="376"
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"

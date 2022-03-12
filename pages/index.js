@@ -25,6 +25,11 @@ export default function Home() {
         How CUET Connect is helping CUETians/non-CUETians!
       </SectionTitle>
       <Sites/>
+
+      <SectionTitle pretitle="Center of Excelence" title="Student Organizations">
+        A summery of all the student organizations in CUET.
+      </SectionTitle>
+      <Sites/>
     
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Some common questions about CUETConnect💐
