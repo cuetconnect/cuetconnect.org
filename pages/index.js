@@ -5,6 +5,7 @@ import SectionTitle from "../components/sectionTitle";
 import Footer from "../components/footer";
 import Faq from "../components/faq";
 import Sites from "../components/sites";
+import StudentOrg from "../components/studentOrg";
 
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
       <SectionTitle pretitle="Center of Excelence" title="Student Organizations">
         A summery of all the student organizations in CUET.
       </SectionTitle>
-      <Sites/>
+      <StudentOrg/>
     
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Some common questions about CUETConnect💐
