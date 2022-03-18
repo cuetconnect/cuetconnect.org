@@ -5,7 +5,7 @@ import SectionTitle from "../components/sectionTitle";
 import Footer from "../components/footer";
 import Faq from "../components/faq";
 import Sites from "../components/sites";
-import StudentOrg from "../components/studentOrg";
+import StudentOrg from "../components/studentorg";
 
 
 export default function Home() {
