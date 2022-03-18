@@ -53,23 +53,45 @@ export default function Navbar() {
 
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <Link href="https://notices.cuetconnect.org/">
-                    <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                    <a
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                      target="_blank"
+                    >
                       Notices
                     </a>
                   </Link>
                   <Link href="https://forum.cuetconnect.org/">
-                    <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                    <a
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                      target="_blank"
+                    >
                       Forum
                     </a>
                   </Link>
                   <Link href="https://admission.cuetconnect.org/">
-                    <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                    <a
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                      target="_blank"
+                    >
                       Admission
                     </a>
                   </Link>
-                  <Link href="/contact">
+                  <Link href="https://shop.cuetconnect.org/">
+                    <a
+                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                      target="_blank"
+                    >
+                      Shop
+                    </a>
+                  </Link>
+                  <Link href="/team">
                     <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                      Contact
+                      Team
+                    </a>
+                  </Link>
+                  <Link href="/donate">
+                    <a className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                      Donate
                     </a>
                   </Link>
                 </Disclosure.Panel>
@@ -83,23 +105,46 @@ export default function Navbar() {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             <li className="mr-3 nav__item">
               <Link href="https://notices.cuetconnect.org/">
-                <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
+                <a
+                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
+                  target="_blank"
+                >
                   Notices
                 </a>
               </Link>
               <Link href="https://forum.cuetconnect.org/">
-                <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
+                <a
+                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
+                  target="_blank"
+                >
                   Forum
                 </a>
               </Link>
               <Link href="https://admission.cuetconnect.org/">
-                <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
+                <a
+                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
+                  target="_blank"
+                >
                   Admission
                 </a>
               </Link>
-              <Link href="/contact">
+
+              <Link href="https://shop.cuetconnect.org/">
+                <a
+                  className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none"
+                  target="_blank"
+                >
+                  Shop
+                </a>
+              </Link>
+              <Link href="/team">
                 <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
-                  Contact
+                  Team
+                </a>
+              </Link>
+              <Link href="/donate">
+                <a className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none">
+                  Donate
                 </a>
               </Link>
             </li>

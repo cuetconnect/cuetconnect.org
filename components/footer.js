@@ -1,11 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import Container from "./container";
-import Image from "next/image";
 
 export default function Footer() {
-  const navigation = ["Contact", "Why?", "Who"];
-  const legal = ["T&C", "Privacy Policy", "Legal"];
   return (
     <div className="relative">
       <Container>
@@ -37,28 +35,72 @@ export default function Footer() {
 
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {navigation.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                    {item}
-                  </a>
-                </Link>
-              ))}
+              <div className="w-full lg:w-1/2">
+                <ul class="list-disc">
+                  <li>
+                    <Link href="/donate">
+                      <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                        Donate
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/team">
+                      <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                        Team
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">
+                      <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                        Contact
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="https://github.com/cuetconnect/cuetconnect.org">
+                      <a
+                        className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                        target="_blank"
+                      >
+                        Contribute(Source)
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
-                <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
-                    {item}
-                  </a>
-                </Link>
-              ))}
+              <ul class="list-disc">
+                <li>
+                  <Link href="/legal">
+                    <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                      Legal
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tos">
+                    <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                      Term & Conditions
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy-policy">
+                    <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                      Privacy Policy
+                    </a>
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="">
-            <div>Social😅</div>
+            <div>Social</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
                 href="https://facebook.com/cuetconnect"
@@ -78,20 +120,9 @@ export default function Footer() {
           </div>
 
           <div className="flex h-24 w-full items-center justify-center border-t">
-            <div class="flex h-8 w-8 absolute">
-              <span class="animate-ping absolute h-8 w-8 -top-4 -left-4 rounded-full bg-gray-200 opacity-90"></span>
-              <span class="relative rounded-full h-8 w-8 -top-4 -left-4 bg-gray-500"></span>
-            
-            
-            <a href="https://status.cuetconnect.org/" target="_blank">
-              <button
-                type="button"
-                class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-              >
-                Status
-              </button>
+            <a href="https://vercel.com/?utm_source=cuetconnect&utm_campaign=oss">
+              <img src="/img/powered-by-vercel.svg"></img>
             </a>
-            </div>
           </div>
         </div>
       </Container>
