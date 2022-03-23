@@ -20,17 +20,5 @@ module.exports = {
     extend: {},
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
-  plugins: [require("daisyui")],
-
-
-
-  daisyui: {
-    styled: false,
-    themes: false,
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
-    darkTheme: "emerald",
-  },
+ 
 };

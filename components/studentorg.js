@@ -2,7 +2,7 @@ import React from "react";
 
 export default function StudentOrg() {
   return (
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-trueGray-900">
       <div class="container mx-auto px-0 py-2">
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
           <div class="max-w-screen-xl px-4 mx-auto md:px-8">
