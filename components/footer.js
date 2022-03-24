@@ -68,6 +68,16 @@ export default function Footer() {
                       </a>
                     </Link>
                   </li>
+                  <li>
+                    <Link href="https://status.cuetconnect.org">
+                      <a
+                        className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                        target="_blank"
+                      >
+                        Status
+                      </a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
