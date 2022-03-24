@@ -13,11 +13,13 @@ export default function Home() {
       <Head>
         <title>CUET CONNECT | Center of excelence</title>
 
+        <meta
+          name="description"
+          content="A non-profit non-political virtual organization to represent CUET on the internet. "
+        />
         <meta name="image" content="/img/cuet-og.png" />
-
         <meta itemprop="name" content="CUET CONNECT | Center of excelence" />
-        <meta itemprop="image" content="/img/cuet-og.png" />
-
+        <meta itemprop="og:image" content="/img/cuet-og.png" />
         <meta name="twitter:card" content="summary" />
         <meta
           name="twitter:title"
