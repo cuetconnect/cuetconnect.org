@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 import Faq from "../components/faq";
 import Sites from "../components/sites";
 import StudentOrg from "../components/studentorg";
+import Emergency from "../components/emergency";
 
 export default function Home() {
   return (
@@ -65,6 +66,10 @@ export default function Home() {
         Some common questions about CUETConnect💐
       </SectionTitle>
       <Faq />
+      <SectionTitle pretitle="SOS" title="Emergency Information">
+        All emergency information
+      </SectionTitle>
+      <Emergency />
       <Footer />
     </>
   );

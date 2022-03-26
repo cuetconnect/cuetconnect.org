@@ -7,11 +7,38 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Donate | CUET CONNECT💐</title>
+        <title> Donate 🏃🏽| CUET CONNECT</title>
+
         <meta
           name="description"
-          content="Consider Donate to CUET CONNECT💐 GOD bless you!"
+          content="Donate to keep running all these websites!. "
         />
+
+        <meta itemprop="name" content="CUET CONNECT | Center of excelence" />
+        <meta itemprop="og:image" content="/img/cuet-og.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:title"
+          content="CUET CONNECT | Center of excelence"
+        />
+        <meta name="twitter:site" content="@abusayed0206" />
+        <meta name="twitter:creator" content="@abusayed0206" />
+        <meta name="twitter:image:src" content="/img/cuet-og.png" />
+
+        <meta name="og:title" content="CUET CONNECT | Center of excelence" />
+        <meta name="og:image" content="/img/cuet-og.png" />
+
+        <meta
+          property="og:image:secure_url"
+          content="https://cuetconnect.org/img/cuet-og.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+        <meta property="og:image:alt" content="explicitly provided" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="og:url" content="https://cuetconnect.org/" />
+        <meta name="og:site_name" content="CUET CONNECT-Center of Excelence" />
+        <meta name="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
