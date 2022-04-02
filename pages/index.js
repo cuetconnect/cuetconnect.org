@@ -67,7 +67,7 @@ export default function Home() {
       </SectionTitle>
       <Faq />
       <SectionTitle pretitle="SOS" title="Emergency Information">
-        All emergency information
+        All emergency information. SOS: CUETConnect gathered all necessary resources to help you when you stack in an unavoidable situation. We are here to help you. If you are in an emergency, please call 999. Otherwise get help from our emergency resources.
       </SectionTitle>
       <Emergency />
       <Footer />

@@ -99,33 +99,7 @@ export default function StudentOrg() {
             </div>
           </div>
 
-          <div class="max-w-screen-xl px-4 mx-auto md:px-8">
-            <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
-              <div class="flex items-center justify-center ">
-                <img
-                  class=" h-25 w-25"
-                  src="/img/cuetjd.png"
-                  alt="CUET CONNECT"
-                />
-              </div>
-
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
-                Joyoddhoney, CUET:With the goal of
-                creating a free cultural environment inside CUET and exposing
-                patriotism by different cultural activities, Joyoddhoney has
-                been organizing and performing so many cultural programmes.
-              <p className="text-center">
-                <a
-                  href="https://www.facebook.com/Joyoddhoney"
-                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  target="_blank"
-                >
-                  JOYODDHONEY 
-                </a>
-              </p>
-              </p>
-            </div>
-          </div>
+          
 
           <div class="max-w-screen-xl px-4 mx-auto md:px-8">
             <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
@@ -270,6 +244,35 @@ export default function StudentOrg() {
                 >
                   ASME
                 </a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="max-w-screen-xl px-4 mx-auto md:px-8">
+            <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
+              <div class="flex items-center justify-center ">
+                <img
+                  class=" h-25 w-25"
+                  src="/img/cuetjd.png"
+                  alt="CUET CONNECT"
+                />
+              </div>
+
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
+                Joyoddhoney, CUET:With the goal of
+                creating a free cultural environment inside CUET and exposing
+                patriotism by different cultural activities, Joyoddhoney has
+                been organizing and performing so many cultural programmes.
+              <p className="text-center">
+                <a
+                  href="https://www.facebook.com/Joyoddhoney"
+                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  target="_blank"
+                >
+                  JOYODDHONEY 
+                </a>
+              </p>
               </p>
             </div>
           </div>

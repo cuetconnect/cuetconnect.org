@@ -3,20 +3,71 @@ import React from "react";
 export default function Emergency() {
   return (
     <section class="bg-white dark:bg-trueGray-900">
-      <div class="max-w-screen-xl px-4 mx-auto md:px-8">
-        <div class="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
-            SOS: CUETConnect gathered all necessary resources to help you when you stack in an unavoidable situation. We are here to help you. If you are in an emergency, please call 999. Otherwise get help from our emergency resources.
-          </p>
-          <p className="text-center">
-            <a
-              href="https://forum.cuetconnect.org/"
-              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              target="_blank"
-            >
-              Forum
-            </a>
-          </p>
+      <div class=" container px-0 py-2 grid mx-auto grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+        <div class="max-w-screen-xl px-4 mx-auto md:px-6">
+          <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
+              Academic Emegergencies
+            </h5>
+
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
+              A civilized forumsite only for CUETians with valid student email!
+              Where you can ask questions, share your thoughts, and get help
+              from fellow CUETians.
+            </p>
+            <p className="text-center">
+              <a
+                href="https://forum.cuetconnect.org/"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                target="_blank"
+              >
+                Emergency
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="max-w-screen-xl px-4 mx-auto md:px-8">
+          <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
+              Medical Emegergencies
+            </h5>
+
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
+              A site for non-CUETians who wants to explore CUET and want to get
+              into CUET. Also this site help fresher to get updated info about
+              CUET!
+            </p>
+            <p className="text-center">
+              <a
+                href="https://admission.cuetconnect.org/"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                target="_blank"
+              >
+                Medical Center
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="max-w-screen-xl px-4 mx-auto md:px-8">
+          <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
+            Transportation Schedule
+            </h5>
+
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
+              Just a jekyll site to publish internal& external(mostly external)
+              CUET notices. You can also get updates about CUET from here.
+            </p>
+            <p className="text-center">
+              <a
+                href="https://notices.cuetconnect.org/"
+                class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                target="_blank"
+              >
+                Notices
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>

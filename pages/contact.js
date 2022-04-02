@@ -44,7 +44,7 @@ export default function Contact() {
 
       <Navbar />
 
-      <div class="container mx-auto px-0 py-2">
+      <div class="container mx-auto px-0 py-2 bg-white dark:bg-trueGray-900">
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
           <div class="max-w-screen-xl px-3 mx-auto md:px-8">
             <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
