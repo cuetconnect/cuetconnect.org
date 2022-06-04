@@ -234,7 +234,7 @@ export default function StudentOrg() {
               </div>
 
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
-              The American Society for Civil Engineer: The ASME is a professional organization of engineers and engineers in related fields who are interested in the application of engineering principles in the design, construction, and operation of civil engineering structures.
+              ASME CUET SC gives students the opportunity to meet and learn from fellow students around the world, as well as faculty members and professionals in the field.It is the first ever & the only branch of ASME Student Section currently active in Bangladesh.
               </p>
               <p className="text-center">
                 <a
@@ -248,6 +248,27 @@ export default function StudentOrg() {
             </div>
           </div>
 
+
+          <div class="max-w-screen-xl px-4 mx-auto md:px-8">
+            <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
+              <div class="flex items-center justify-center ">
+                <img class=" h-25 w-25" src="/img/rsz_asce.jpg" alt="CUET CONNECT" />
+              </div>
+
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center">
+              The American Society for Civil Engineer: The ASME is a professional organization of engineers and engineers in related fields who are interested in the application of engineering principles in the design, construction, and operation of civil engineering structures.
+              </p>
+              <p className="text-center">
+                <a
+                  href="https://www.facebook.com/asce.sc.cuet/about/?ref=page_internal"
+                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg  hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  target="_blank"
+                >
+                  ASCE
+                </a>
+              </p>
+            </div>
+          </div>
 
           <div class="max-w-screen-xl px-4 mx-auto md:px-8">
             <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 align-content: center place-items-center">
